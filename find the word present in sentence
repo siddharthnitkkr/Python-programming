@@ -1,0 +1,7 @@
+str=input("enter a string\n")
+word=input("enter word to find in string\n")
+
+if(word in str) :
+    print("word is present")
+else :
+    print("word is not present")
