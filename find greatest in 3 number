@@ -1,0 +1,13 @@
+'''
+
+                            Online Python Compiler.
+                Code, Compile, Run and Debug python program online.
+Write your code in this editor and press "Run" button to execute it.
+
+'''
+
+a=int(input("enter the first number\n"))
+b=int(input("enter the second number\n"))
+c=int(input("enter the third number\n"))
+d=a if((a>=b) and (a>=c)) else b if((b>=a) and (b>=c)) else c 
+print("max number is :-", d)
