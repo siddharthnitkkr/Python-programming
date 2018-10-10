@@ -1,0 +1,8 @@
+str=input("enter a string\n")
+l=str.split()
+
+for word in l:
+   if word!=l[len(l) -1]:
+     print(word[0]+'.',end='')
+
+print(l[len(l)-1])
